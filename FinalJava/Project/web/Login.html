@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<style>
+@import "compass/css3";
+body {
+  background: #384047;
+  font-family: sans-serif;
+  font-size: 14px
+}
+		
+		form {
+  background: #fff;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+		
+		input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+  }
+
+	
+	</style>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Login" method="POST">
+        <h3 align="center">Login Form</h3>
+        <strong>Username</strong>:<input style="margin: 14px 14px" type="text" name="user"/><br>
+        <strong>Password</strong>:<input style="margin: 15px 15px" type="password" name="pass"/><br>
+        <input style="margin-left:22%" type="submit" value="Login" name="button"/>
+        <input type="submit" value="New User" name="button"/>
+        </form>
+    </body>
+</html>
